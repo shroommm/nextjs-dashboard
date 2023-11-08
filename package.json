@@ -2,8 +2,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
-    "dev:custom": "rmdir /s /q .next && next dev",
+    "dev": "rmdir /s /q .next && next dev",
     "start": "next start",
     "seed": "node -r dotenv/config ./scripts/seed.js",
     "lint": "next lint"
